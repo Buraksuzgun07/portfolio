@@ -248,9 +248,7 @@ a {
     font-size: 2vw;
   }
 
-  .info-card {
-    display: flex;
-  }
+
 
   .left {
     flex-direction: row;
@@ -259,9 +257,7 @@ a {
     flex-direction: row-reverse;
   }
 
-  .info-card img {
-    width: 30%;
-  }
+  
 
   .info-card-text {
     padding: 32px;
@@ -309,7 +305,10 @@ a {
   }
 
   .info-card img {
-    width: 15%;
+    width: auto;
+  }
+  .info-card {
+    display: flex;
   }
 
   .info-card-text {
